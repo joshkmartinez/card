@@ -1,6 +1,6 @@
 {
   "name": "joshkmartinez",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Personal npm card for Joshua Martinez (@joshkmartinez)",
   "main": "dist/card.js",
   "unpkg": "index.html",
