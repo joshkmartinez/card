@@ -1,6 +1,6 @@
 {
-  "name": "joshkmartinez",
-  "version": "3.0.0",
+  "name": "joshua",
+  "version": "0.0.1",
   "description": "Personal npm card for Joshua Martinez (@joshkmartinez)",
   "main": "dist/card.js",
   "unpkg": "index.html",
@@ -13,7 +13,7 @@
     "prepublishOnly": "rm -rf dist && webpack"
   },
   "bin": {
-    "joshkmartinez": "bin/index.js"
+    "joshua": "bin/index.js"
   },
   "files": [
     "bin",
@@ -52,41 +52,32 @@
       "npm": "joshkmartinez",
       "github": "joshkmartinez",
       "linkedin": "joshkmartinez",
+      "instagram": "joshkmartinez",
       "web": "https://jkm.now.sh",
       "work": ""
     },
     "data": [
-      "          <white>{{name}}</><green> / </><cyan>{{handle}}</>",
+      "          <white>{{name}}</><green> / </><salmon>{{handle}}</salmon>",
       "",
-      {
-        "label": "<blue>Work</>",
-        "text": "{{work}}"
-      },
-      "",
-      {
-        "label": "Twitter",
-        "text": "https://twitter.com/<cyan>{{twitter}}</>",
-        "when": "{{twitter}}"
-      },
-      {
-        "label": "npm",
-        "text": "https://www.npmjs.com/<red>~{{npm}}</>",
-        "when": "{{npm}}"
-      },
       {
         "label": "GitHub",
         "text": "https://github.com/<green>{{github}}</>",
         "when": "{{github}}"
       },
       {
+        "label": "Twitter",
+        "text": "https://twitter.com/<cyan>{{twitter}}</>",
+        "when": "{{twitter}}"
+      },
+      {
+        "label": "Instagram",
+        "text": "https://instagram.com/<purple>{{instagram}}</>",
+        "when": "{{npm}}"
+      },
+      {
         "label": "LinkedIn",
         "text": "https://www.linkedin.com/in/<blue>{{linkedin}}</>",
         "when": "{{linkedin}}"
-      },
-      {
-        "label": "Web",
-        "text": "<cyan>{{web}}</>",
-        "when": "{{web}}"
       },
       "",
       {
